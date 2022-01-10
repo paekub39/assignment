@@ -362,6 +362,6 @@ Response:
 
 ## System Flow
 
-![](https://github.com/paekub39/assignment/question_2/SystemFlow.png?raw=true)
+[//]: # (![]&#40;https://github.com/paekub39/assignment/question_2/SystemFlow.png?raw=true&#41;)
 
-[//]: # (![]&#40;./SystemFlow.png&#41;)
+![](./SystemFlow.png)
