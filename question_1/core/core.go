@@ -1,6 +1,6 @@
-package question_1
+package core
 
-var dataset = []int8{1, 2, 8, 17, 22, 37, 78, 113} // Mock dataset that refer to dataset in Question 1 ([1, X, 8, 17, Y, Z, 78, 113])
+var dataset = []int{1, 2, 8, 17, 22, 37, 78, 113} // Mock dataset that refer to dataset in Question 1 ([1, X, 8, 17, Y, Z, 78, 113])
 const (
 	xPosition = 1 // Position of X
 	yPosition = 4 // Position of Y
@@ -8,9 +8,9 @@ const (
 )
 
 type XYZ struct {
-	X int8
-	Y int8
-	Z int8
+	X int
+	Y int
+	Z int
 }
 
 // GetXYZByPosition is a function to get X, Y, Z by position from the dataset.
@@ -23,7 +23,7 @@ func GetXYZByPosition() XYZ {
 
 // GetXYZByRemoveKnowData is a function to get X, Y, Z by remove data you know.
 func GetXYZByRemoveKnowData() XYZ {
-	knowData := []int8{1, 8, 17, 78, 113}
+	knowData := []int{1, 8, 17, 78, 113}
 	datasetTemp := dataset
 	for i := 0; i < len(knowData); i++ {
 	tempLoop:
