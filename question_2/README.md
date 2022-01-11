@@ -362,6 +362,9 @@ Response:
 
 ## System Flow
 
-[//]: # (![]&#40;https://github.com/paekub39/assignment/question_2/SystemFlow.png?raw=true&#41;)
-
 ![](./SystemFlow.png)
+
+***
+
+## Building
+    $ go build assignment/question_2

@@ -40,3 +40,6 @@ Response:
   "Z": 37
 }
 ```
+***
+## Building
+    $ go build assignment/question_1
